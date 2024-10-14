@@ -1,0 +1,12 @@
+.column {
+    @apply bg-[#fff] min-h-[250px] w-full rounded-lg p-[15px] flex-1 flex-col;
+    border: 1px solid #e7e7e7;
+
+    >.title {
+        @apply text-[19px] font-bold
+    }
+
+    >.tasks {
+        @apply flex flex-col gap-[10px]
+    }
+}

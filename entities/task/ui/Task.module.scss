@@ -1,0 +1,24 @@
+.task {
+    @apply w-full p-[20px] rounded-lg flex justify-between;
+    border: 1px solid #e7e7e7;
+    
+    >h2 {
+        @apply text-[#000] font-bold
+    }
+
+    .buttons {
+        @apply flex gap-[5px];
+       
+        >button:first-child {
+            svg {
+                @apply hover:text-blue-600;
+            }
+        }
+
+        >button:last-child {
+            svg {
+                @apply hover:text-red-600;
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+.background {
+    @apply fixed inset-0 flex items-center justify-center bg-black bg-opacity-40;
+
+    .modal {
+        @apply bg-white p-8 rounded-[12px] w-[500px] flex flex-col gap-5;
+
+        .header {
+            @apply w-full flex justify-between;
+
+            >h1 {
+                @apply text-[20px] font-bold;
+            }
+        }
+
+        .footer {
+            @apply w-full flex justify-end;
+        }
+    }
+}

@@ -1,0 +1,21 @@
+.layout {   
+    @apply relative;
+    
+    >div:first-child {
+        @apply fixed top-0 bottom-0 left-0;
+        width: 20%;
+        max-width: 350px;
+        overflow-y: auto;
+        border-right: 1px solid black;
+    }
+
+    >div:last-child {
+        @apply bg-[#f7f6f5];        
+    }
+
+    .center {        
+        min-height: 100vh;
+        padding: 2.75rem;
+        margin: 0 0 0 20%;
+    }   
+}
